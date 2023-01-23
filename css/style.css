@@ -1,10 +1,14 @@
-nav .nav-inner {
-    background-color: green;
-    /* debug */
-
+body .container {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+
+    height: 1000px;
+}
+
+nav .nav-inner {
+    background-color: green;
+    /* debug */
 
     display: flex;
     flex-flow: row nowrap;

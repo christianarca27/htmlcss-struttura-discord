@@ -73,3 +73,55 @@ header .hero-container-wrapper .hero-container {
 }
 /* /hero */
 /* /header */
+
+/* main */
+main .sezione {
+    height: 300px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: yellow;
+    /* debug */
+}
+
+main .sezione figure {
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+    /* debug */
+}
+
+main .sezione .sezione-inner {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    /* debug */
+}
+
+main .sezione.quattro {
+    height: 700px;
+    
+    flex-flow: column nowrap;
+}
+
+main .sezione.quattro .sezione-inner {
+    width: 400px;
+    height: 100px;
+    /* debug */
+}
+
+main .sezione.quattro figure {
+    width: 400px;
+    height: 300px;
+    /* debug */
+}
+
+main .sezione.quattro .download {
+    width: 400px;
+    height: 100px;
+    background-color: green;
+    /* debug */
+}
+/* /main */

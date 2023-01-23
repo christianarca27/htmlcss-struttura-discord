@@ -1,0 +1,46 @@
+nav .nav-inner {
+    background-color: green;
+    /* debug */
+
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    /* debug */
+}
+
+nav .login {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    /* debug */
+}
+
+nav .links {
+    background-color: red;
+    /* debug */
+}
+
+nav .links ul {
+    display: flex;
+    flex-flow: row nowrap;
+    
+    padding-inline-start: 0;
+    list-style: none;
+}
+
+nav .links li {
+    width: 80px;
+    height: 30px;
+    /* debug */
+}

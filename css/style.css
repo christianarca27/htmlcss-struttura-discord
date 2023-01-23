@@ -2,10 +2,10 @@ body .container {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-
-    height: 1000px;
 }
 
+/* header */
+/* nav */
 nav .nav-inner {
     background-color: green;
     /* debug */
@@ -30,6 +30,7 @@ nav .login {
     /* debug */
 }
 
+/* links */
 nav .links {
     background-color: red;
     /* debug */
@@ -48,3 +49,6 @@ nav .links li {
     height: 30px;
     /* debug */
 }
+/* /links */
+/* /nav */
+/* /header */

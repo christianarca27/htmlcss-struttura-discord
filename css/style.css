@@ -125,3 +125,72 @@ main .sezione.quattro .download {
     /* debug */
 }
 /* /main */
+
+/* footer */
+footer {
+    padding: 50px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+
+    background-color: violet;
+    /* debug */
+}
+
+/* links */
+footer .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    background-color: blue;
+    /* debug */
+}
+
+footer .links .social {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    /* debug */
+}
+
+footer .links ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+footer .links ul li {
+    height: 20px;
+    width: 100px;
+    background-color: green;
+    /* debug */
+}
+/* /links */
+
+footer hr {
+    border: 5px solid red;
+}
+
+footer .signin-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: green;
+    /* debug */
+}
+
+footer .signin-wrapper .logo {
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    /* debug */
+}
+
+footer .signin-wrapper .singin {
+    height: 30px;
+    width: 60px;
+    background-color: red;
+    /* debug */
+}
+/* /footer */

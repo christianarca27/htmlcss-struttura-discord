@@ -52,4 +52,24 @@ header nav .links li {
 }
 /* /links */
 /* /nav */
+
+/* hero */
+header .hero-container-wrapper {
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: violet;
+    /* debug */
+}
+
+header .hero-container-wrapper .hero-container {
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    /* debug */
+}
+/* /hero */
 /* /header */

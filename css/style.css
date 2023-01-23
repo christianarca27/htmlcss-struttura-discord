@@ -6,7 +6,7 @@ body .container {
 
 /* header */
 /* nav */
-nav .nav-inner {
+header nav .nav-inner {
     background-color: green;
     /* debug */
 
@@ -16,14 +16,14 @@ nav .nav-inner {
     align-items: center;
 }
 
-nav .logo {
+header nav .logo {
     background-color: red;
     height: 100px;
     width: 100px;
     /* debug */
 }
 
-nav .login {
+header nav .login {
     background-color: red;
     height: 50px;
     width: 50px;
@@ -31,20 +31,21 @@ nav .login {
 }
 
 /* links */
-nav .links {
+header nav .links {
     background-color: red;
     /* debug */
 }
 
-nav .links ul {
+header nav .links ul {
     display: flex;
     flex-flow: row nowrap;
+    gap: 20px;
     
     padding-inline-start: 0;
     list-style: none;
 }
 
-nav .links li {
+header nav .links li {
     width: 80px;
     height: 30px;
     /* debug */

@@ -54,22 +54,31 @@ body .container-centered {
 /* /nav */
 
 /* hero */
-header .hero-wrapper {
-    height: 300px;
+#hero-container {
+    min-height: 400px;
+    background-color: violet;
+    /* debug */
+    padding: 40px 0;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-    background-color: violet;
-    /* debug */
 }
 
-header .hero-wrapper .hero {
-    width: 500px;
-    height: 200px;
+#hero-container-inner {
     background-color: blue;
     /* debug */
+    max-width: 600px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#hero-container-inner h1 {
+    margin-bottom: 0.6em;
 }
 /* /hero */
 /* /header */

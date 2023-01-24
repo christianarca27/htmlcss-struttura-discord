@@ -125,6 +125,20 @@ main section .section-text {
     max-width: 60%;
     min-width: 30%;
 }
+
+main section:last-of-type .section-inner {
+    background-color: pink;
+    /* debug */
+
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+main section:last-of-type .section-inner .section-picture {
+    margin-bottom: 40px;
+}
 /* /main */
 
 /* footer */

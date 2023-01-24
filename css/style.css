@@ -85,18 +85,32 @@ body .container-centered {
 
 /* main */
 main section {
-    height: 300px;
+    padding: 50px 0;
+}
+
+main section .section-inner {
+    min-height: 300px;
+    padding: 30px;
 
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
 
     background-color: yellow;
     /* debug */
 }
 
+main section:nth-of-type(even) {
+    background-color: grey;
+    /* debug */
+}
+
+main section:nth-of-type(even) .section-inner {
+    flex-direction: row-reverse;
+}
+
 main section .section-picture {
-    width: 300px;
+    width: 400px;
     height: 200px;
     background-color: blue;
     /* debug */
@@ -104,34 +118,12 @@ main section .section-picture {
 
 main section .section-text {
     width: 300px;
-    height: 200px;
+    height: 300px;
     background-color: red;
     /* debug */
-}
 
-main > section:last-child {
-    height: 700px;
-    
-    flex-flow: column nowrap;
-}
-
-main > section:last-child .sezione-inner {
-    width: 400px;
-    height: 100px;
-    /* debug */
-}
-
-main > section:last-child figure {
-    width: 400px;
-    height: 300px;
-    /* debug */
-}
-
-main > section:last-child .download {
-    width: 400px;
-    height: 100px;
-    background-color: green;
-    /* debug */
+    max-width: 60%;
+    min-width: 30%;
 }
 /* /main */
 

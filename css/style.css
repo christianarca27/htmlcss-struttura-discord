@@ -1,4 +1,4 @@
-body .container {
+body .container-centered {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
@@ -6,7 +6,7 @@ body .container {
 
 /* header */
 /* nav */
-header nav .nav-inner {
+#nav-inner {
     background-color: green;
     /* debug */
 
@@ -16,27 +16,20 @@ header nav .nav-inner {
     align-items: center;
 }
 
-header nav .logo {
+#logo-header {
     background-color: red;
-    height: 100px;
     width: 100px;
-    /* debug */
-}
-
-header nav .login {
-    background-color: red;
     height: 50px;
-    width: 50px;
     /* debug */
 }
 
 /* links */
-header nav .links {
+#links-header {
     background-color: red;
     /* debug */
 }
 
-header nav .links ul {
+#links-header ul {
     display: flex;
     flex-flow: row nowrap;
     gap: 20px;
@@ -45,16 +38,23 @@ header nav .links ul {
     list-style: none;
 }
 
-header nav .links li {
+#links-header li {
     width: 80px;
     height: 30px;
     /* debug */
 }
 /* /links */
+
+#login-header {
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    /* debug */
+}
 /* /nav */
 
 /* hero */
-header .hero-container-wrapper {
+header .hero-wrapper {
     height: 300px;
 
     display: flex;
@@ -65,7 +65,7 @@ header .hero-container-wrapper {
     /* debug */
 }
 
-header .hero-container-wrapper .hero-container {
+header .hero-wrapper .hero {
     width: 500px;
     height: 200px;
     background-color: blue;
@@ -75,7 +75,7 @@ header .hero-container-wrapper .hero-container {
 /* /header */
 
 /* main */
-main .sezione {
+main section {
     height: 300px;
 
     display: flex;
@@ -86,39 +86,39 @@ main .sezione {
     /* debug */
 }
 
-main .sezione figure {
+main section .section-picture {
     width: 300px;
     height: 200px;
     background-color: blue;
     /* debug */
 }
 
-main .sezione .sezione-inner {
+main section .section-text {
     width: 300px;
     height: 200px;
     background-color: red;
     /* debug */
 }
 
-main .sezione.quattro {
+main > section:last-child {
     height: 700px;
     
     flex-flow: column nowrap;
 }
 
-main .sezione.quattro .sezione-inner {
+main > section:last-child .sezione-inner {
     width: 400px;
     height: 100px;
     /* debug */
 }
 
-main .sezione.quattro figure {
+main > section:last-child figure {
     width: 400px;
     height: 300px;
     /* debug */
 }
 
-main .sezione.quattro .download {
+main > section:last-child .download {
     width: 400px;
     height: 100px;
     background-color: green;

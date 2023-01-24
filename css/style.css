@@ -142,70 +142,88 @@ main section:last-of-type .section-inner .section-picture {
 /* /main */
 
 /* footer */
-footer {
-    padding: 50px;
-
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 10px;
-
+/* footer-top */
+#footer-top {
     background-color: violet;
     /* debug */
+    padding: 2em 0;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
 }
 
-/* links */
-footer .links {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-
+/* footer-top-left */
+#footer-top-left {
     background-color: blue;
     /* debug */
-}
-
-footer .links .social {
-    height: 100px;
     width: 200px;
-    background-color: red;
+    height: 200px;
     /* debug */
 }
 
-footer .links ul {
+#social {
+    background-color: red;
+    /* debug */
+    width: 200px;
+    height: 100px;
+}
+/* /footer-top-left */
+
+/* footer-top-right */
+#footer-top-right {
+    background-color: blue;
+    /* debug */
+    flex-grow: 1;
+
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: flex-start; */
+}
+
+#footer-top-right .link-list {
+    flex-grow: 1;
+}
+
+#footer-top-right ul {
     list-style: none;
     padding-inline-start: 0;
 }
 
-footer .links ul li {
-    height: 20px;
-    width: 100px;
+#footer-top-right ul li {
     background-color: green;
     /* debug */
 }
-/* /links */
+/* /footer-top-right */
+/* /footer-top */
 
 footer hr {
     border: 5px solid red;
+    /* debug */
 }
 
-footer .signin-wrapper {
-    display: flex;
-    justify-content: space-between;
-
+/* footer-bottom */
+#footer-bottom {
     background-color: green;
     /* debug */
+    padding: 2em 0;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
-footer .signin-wrapper .logo {
-    height: 30px;
+#logo-footer-bottom {
     width: 60px;
+    height: 30px;
     background-color: red;
     /* debug */
 }
 
-footer .signin-wrapper .singin {
-    height: 30px;
+#singin-footer-bottom {
     width: 60px;
+    height: 30px;
     background-color: red;
     /* debug */
 }
+/* /footer-bottom */
 /* /footer */
